@@ -1,0 +1,52 @@
+# Secrets and credentials
+.env
+config.toml
+config.json
+config.yaml
+config.yml
+secrets.json
+credentials.json
+*.key
+*.pem
+
+# Service account files
+*-service-account.json
+service-account-*.json
+
+# API keys and tokens
+.apikeys
+.tokens
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+temp/
+tmp/

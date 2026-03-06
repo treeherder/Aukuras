@@ -1,0 +1,26 @@
+[google_workspace]
+service_account_file = "path/to/service-account.json"
+delegated_user_email = "your-email@domain.com"
+scopes = [
+    "https://www.googleapis.com/auth/calendar",
+    "https://www.googleapis.com/auth/tasks"
+]
+
+[claude]
+api_key = "your-claude-api-key-here"
+model = "claude-3-5-sonnet-20241022"
+max_tokens = 4096
+
+[github]
+token = "your-github-personal-access-token"
+organization = "your-org-name"
+project_number = 1
+
+[trello]
+api_key = "your-trello-api-key"
+token = "your-trello-token"
+board_id = "your-default-board-id"
+
+[general]
+timezone = "America/Chicago"
+log_level = "INFO"
